@@ -1,6 +1,10 @@
 .khan__buy-link {
     margin: 0;
     padding: 0;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #2f80ed;
     text-decoration: none;
     align-self: flex-start;
     transition: opacity 0.8s cubic-bezier(.59,.08,.14,.67) 0s;
