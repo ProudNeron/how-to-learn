@@ -9,9 +9,14 @@
     font-weight: normal;
     text-decoration: none;
     color: #2f80ed;
+    transition: opacity 0.8s cubic-bezier(.59,.08,.14,.67) 0s;
   }
   
   .feynman__link::after {
     content: " \2192";
     color: #2f80ed;
+  }
+
+  .feynman__link:hover {
+    opacity: 0.65;
   }

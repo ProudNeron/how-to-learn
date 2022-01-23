@@ -3,6 +3,8 @@
     padding: 0;
     width: 620px;
     height: 608px;
+    object-fit: cover;
+    object-position: top right;
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;

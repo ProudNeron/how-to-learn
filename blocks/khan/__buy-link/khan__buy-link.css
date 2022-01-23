@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    align-self: flex-start;
+    transition: opacity 0.8s cubic-bezier(.59,.08,.14,.67) 0s;
 }
 
 .khan__buy-link::after{
     content: " \2192";
     color: #2f80ed;
+}
+
+.khan__buy-link:hover {
+    opacity: 0.65;
 }

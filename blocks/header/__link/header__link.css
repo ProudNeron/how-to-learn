@@ -3,9 +3,14 @@
     padding: 0;
     color: #2f80ed;
     text-decoration: none;
+    transition: opacity 0.8s cubic-bezier(.59,.08,.14,.67) 0s;
   }
   
   .header__link::after {
     content: " \2192";
     color: #2f80ed;
+  }
+
+  .header__link:hover {
+    opacity: 0.65;
   }

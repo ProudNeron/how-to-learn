@@ -6,4 +6,9 @@
     font-weight: normal;
     text-decoration: none;
     color: white;
+    transition: opacity 0.8s cubic-bezier(.59,.08,.14,.67) 0s;
+  }
+
+  .footer__column-link:hover {
+    opacity: 0.65;
   }
